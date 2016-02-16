@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer
+      mdl-layout--fixed-header">
+      {% include header.html %}
+      <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">Bazel</span>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="index.html">Overview</a>
+          <a class="mdl-navigation__link" href="rust_repositories.html">rust_repositories</a>
+          <a class="mdl-navigation__link" href="rust_library.html">rust_library</a>
+          <a class="mdl-navigation__link" href="rust_binary.html">rust_binary</a>
+          <a class="mdl-navigation__link" href="rust_test.html">rust_test</a>
+          <a class="mdl-navigation__link" href="rust_bench_test.html">rust_bench_test</a>
+          <a class="mdl-navigation__link" href="rust_doc.html">rust_doc</a>
+          <a class="mdl-navigation__link" href="rust_doc_test.html">rust_doc_test</a>
+        </nav>
+      </div>
+
+      <main class="mdl-layout__content">
+        <div class="page-content">
+          {{ content }}
+        </div>
+
+        {% include footer.html %}
+      </main>
+    </div>
+  </body>
+</html>
