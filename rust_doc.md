@@ -19,14 +19,14 @@ rust_doc(name, dep, markdown_css, html_in_header, html_before_content, html_afte
     <tr>
       <td><code>name</code></td>
       <td>
-        <code>Name, required</code>
+        <p><code>Name, required</code></p>
         <p>A unique name for this rule.</p>
       </td>
     </tr>
     <tr>
       <td><code>dep</code></td>
       <td>
-        <code>Label, required</code>
+        <p><code>Label, required</code></p>
         <p>The label of the target to generate code documentation for.</p>
         <p>
           <code>rust_doc</code> can generate HTML code documentation for the
@@ -38,7 +38,7 @@ rust_doc(name, dep, markdown_css, html_in_header, html_before_content, html_afte
     <tr>
       <td><code>markdown_css</code></td>
       <td>
-        <code>List of Labels, optional</code>
+        <p><code>List of Labels, optional</code></p>
         <p>
           CSS files to include via <code>&lt;link&gt;</code> in a rendered
           Markdown file.
@@ -48,21 +48,21 @@ rust_doc(name, dep, markdown_css, html_in_header, html_before_content, html_afte
     <tr>
       <td><code>html_in_header</code></td>
       <td>
-        <code>Label, optional</code>
+        <p><code>Label, optional</code></p>
         <p>File to add to <code>&lt;head&gt;</code>.</p>
       </td>
     </tr>
     <tr>
       <td><code>html_before_content</code></td>
       <td>
-        <code>Label, optional</code>
+        <p><code>Label, optional</code></p>
         <p>File to add in <code>&lt;body&gt;</code>, before content.</p>
       </td>
     </tr>
     <tr>
       <td><code>html_after_content</code></td>
       <td>
-        <code>Label, optional</code>
+        <p><code>Label, optional</code></p>
         <p>File to add in <code>&lt;body&gt;</code>, after content.</p>
       </td>
     </tr>

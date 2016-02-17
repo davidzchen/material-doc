@@ -19,7 +19,7 @@ rust_library(name, srcs, deps, data, crate_features, rustc_flags)
     <tr>
       <td><code>name</code></td>
       <td>
-        <code>Name, required</code>
+        <p><code>Name, required</code></p>
         <p>A unique name for this rule.</p>
         <p>
           This name will also be used as the name of the library crate built by
@@ -30,7 +30,7 @@ rust_library(name, srcs, deps, data, crate_features, rustc_flags)
     <tr>
       <td><code>srcs</code></td>
       <td>
-        <code>List of labels, required</code>
+        <p><code>List of labels, required</code></p>
         <p>List of Rust <code>.rs</code> source files used to build the
         library.</p>
         <p>
@@ -45,7 +45,7 @@ rust_library(name, srcs, deps, data, crate_features, rustc_flags)
     <tr>
       <td><code>crate_root</code></td>
       <td>
-        <code>Label, optional</code>
+        <p><code>Label, optional</code></p>
         <p>
           The file that will be passed to <code>rustc</code> to be used for
           building this crate.
@@ -60,7 +60,7 @@ rust_library(name, srcs, deps, data, crate_features, rustc_flags)
     <tr>
       <td><code>deps</code></td>
       <td>
-        <code>List of labels, optional</code>
+        <p><code>List of labels, optional</code></p>
         <p>List of other libraries to be linked to this library target.</p>
         <p>
           These can be either other <code>rust_library</code> targets or
@@ -71,7 +71,7 @@ rust_library(name, srcs, deps, data, crate_features, rustc_flags)
     <tr>
       <td><code>data</code></td>
       <td>
-        <code>List of labels, optional</code>
+        <p><code>List of labels, optional</code></p>
         <p>List of files used by this rule at runtime.</p>
         <p>
           This attribute can be used to specify any data files that are embedded
@@ -84,7 +84,7 @@ rust_library(name, srcs, deps, data, crate_features, rustc_flags)
     <tr>
       <td><code>crate_features</code></td>
       <td>
-        <code>List of strings, optional</code>
+        <p><code>List of strings, optional</code></p>
         <p>List of features to enable for this crate.</p>
         <p>
           Features are defined in the code using the
@@ -97,7 +97,7 @@ rust_library(name, srcs, deps, data, crate_features, rustc_flags)
     <tr>
       <td><code>rustc_flags</code></td>
       <td>
-        <code>List of strings, optional</code>
+        <p><code>List of strings, optional</code></p>
         <p>List of compiler flags passed to <code>rustc</code>.</p>
       </td>
     </tr>
