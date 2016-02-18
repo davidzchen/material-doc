@@ -12,6 +12,13 @@ code {
 pre {
   background-color: #eee;
   padding: 20px;
+  overflow-x: auto;
+  word-wrap: normal;
+
+  code {
+    overflow-wrap: normal;
+    white-space: pre;
+  }
 }
 
 code {
@@ -196,4 +203,8 @@ nav.toc {
   .page-content {
     width: 1160px;
   }
+}
+
+.mdl-mini-footer {
+  padding-left: 40px;
 }
