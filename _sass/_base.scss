@@ -25,6 +25,52 @@ code {
 
   .mdl-layout-title {
     border-bottom: 1px solid #e0e0e0;
+    padding-left: 24px;
+  }
+}
+
+.drawer-nav {
+  ul {
+    list-style: none;
+    padding-left: 0;
+
+    li {
+      display: block;
+      padding: 0;
+
+      ul {
+        li {
+          a {
+            padding-left: 44px;
+            font-weight: 400;
+          }
+        }
+      }
+
+      a {
+        display: block;
+        flex-shrink: 0;
+        padding: 15px 0 15px 22px;
+        margin: 0;
+        font-weight: 600;
+        color: #757575;
+        line-height: 1em;
+        text-decoration: none;
+        cursor: pointer;
+
+        &:active,
+        &:hover {
+          background-color: #f0f0f0;
+        }
+      }
+
+      &.active {
+        a {
+          color: $primary-color;
+          font-weight: 500;
+        }
+      }
+    }
   }
 }
 
