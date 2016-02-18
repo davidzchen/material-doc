@@ -13,7 +13,7 @@ rust_binary(name, srcs, deps, data, crate_features, rustc_flags)
 <table class="params-table params-table-primary">
   <colgroup>
     <col class="col-param" />
-    <col class="param-description" />
+    <col class="col-description" />
   </colgroup>
   <tbody>
     <tr>

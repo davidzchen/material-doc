@@ -10,10 +10,10 @@ rust_doc(name, dep, markdown_css, html_in_header, html_before_content, html_afte
 
 ### Attributes
 
-<table class="table table-condensed table-bordered table-params">
+<table class="params-table params-table-primary">
   <colgroup>
     <col class="col-param" />
-    <col class="param-description" />
+    <col class="col-description" />
   </colgroup>
   <tbody>
     <tr>

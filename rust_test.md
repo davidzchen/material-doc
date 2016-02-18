@@ -10,10 +10,10 @@ rust_test(name, srcs, deps, data, crate_features, rustc_flags)
 
 ### Attributes
 
-<table class="table table-condensed table-bordered table-params">
+<table class="params-table params-table-primary">
   <colgroup>
     <col class="col-param" />
-    <col class="param-description" />
+    <col class="col-description" />
   </colgroup>
   <tbody>
     <tr>

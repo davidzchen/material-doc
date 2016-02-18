@@ -10,10 +10,10 @@ rust_doc_test(name, dep)
 
 ### Attributes
 
-<table class="table table-condensed table-bordered table-params">
+<table class="params-table params-table-primary">
   <colgroup>
     <col class="col-param" />
-    <col class="param-description" />
+    <col class="col-description" />
   </colgroup>
   <thead>
     <tr>

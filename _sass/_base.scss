@@ -112,6 +112,18 @@ table {
   }
 }
 
+table.params-table {
+  width: 100%;
+
+  col.col-param{
+    width: 25%;
+  }
+
+  col.col-description {
+    width: 75%;
+  }
+}
+
 nav.toc {
   border-left: 5px solid $primary-color;
   padding-left: 20px;
@@ -141,7 +153,15 @@ nav.toc {
 }
 
 .page-content {
-  padding: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+    width: 760px;
+
+  a {
+    text-decoration: none;
+  }
 
   h2 {
     font-size: 24px;
@@ -157,5 +177,23 @@ nav.toc {
     line-height: 32px;
     margin-bottom: 30px;
     color: $primary-color;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-content {
+    width: 360px;
+  }
+}
+
+@media (min-width: 768px) {
+  .page-content {
+    width: 760px;
+  }
+}
+
+@media (min-width: 1476px) {
+  .page-content {
+    width: 1160px;
   }
 }
