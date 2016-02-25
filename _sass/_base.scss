@@ -131,14 +131,21 @@ table.params-table {
   }
 }
 
+hr {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
 nav.toc {
   border-left: 5px solid $primary-color;
   padding-left: 20px;
+  margin-bottom: 48px;
 
   h1 {
     font-size: 15px;
     line-height: 16px;
     padding-bottom: 12px;
+    margin-bottom: 0;
     font-weight: 400;
     color: #757575;
   }
@@ -168,6 +175,14 @@ nav.toc {
 
   a {
     text-decoration: none;
+  }
+
+  h1 {
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-bottom: 30px;
+    color: $primary-color;
   }
 
   h2 {
